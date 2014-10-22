@@ -1,0 +1,11 @@
+"#win[platform=ios]":{
+	title: "iOS Window"
+}
+
+"#win[platform=android]":{
+	title: "Android Window"
+}
+
+".container":{
+	backgroundColor: "#fff"
+}

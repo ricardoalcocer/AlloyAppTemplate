@@ -1,0 +1,11 @@
+<!-- This is your iOS view.  Could contain any iOS-specific UI controls.  The content of the Window is being -->
+<!-- included via the Require tag, in case you wish to keep the contents reusable -->
+<!-- In this example, we have a single, cross-platform home.js, which will take care of  -->
+<!-- feeding the sharedhome controller -->
+<Alloy>
+	<NavigationWindow id="nav">
+		<Window id="win" class="container">
+			<Require src="sharedhome" id="sharedhome"/>
+		</Window>
+	</NavigationWindow>
+</Alloy>

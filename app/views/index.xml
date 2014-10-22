@@ -1,0 +1,3 @@
+<!-- This View will never be shown.  It's only used to keep Alloy happy -->
+<!-- index.js will pick it up from here -->
+<Alloy/>

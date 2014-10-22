@@ -1,0 +1,9 @@
+<!-- This is your Android view.  Could contain any Android-specific UI controls.  The content of the Window is being -->
+<!-- included via the Require tag, in case you wish to keep the contents reusable -->
+
+<Alloy>
+	<Window id="win" class="container" onOpen="doopen">
+		<ActionBar/>
+		<Require src="sharedhome" id="sharedhome"/>
+	</Window>
+</Alloy>
