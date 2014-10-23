@@ -15,7 +15,14 @@ if (OS_IOS){
 function doopen(evt){
 	if (OS_ANDROID){
 		var abx=require('com.alcoapps.actionbarextras');
-		abx.setTitleColor('#000000');
 		abx.setBackgroundColor('#dddddd');
+	}
+}
+
+function doadd(evt){
+	if (OS_IOS){
+		$.nav.openWindow(Alloy.createController('secondwin').getView());
+	}else if (OS_ANDROID){
+		Alloy.createController('secondwin').getView().open();
 	}
 }

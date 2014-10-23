@@ -1,11 +1,17 @@
-<!-- This is your iOS view.  Could contain any iOS-specific UI controls.  The content of the Window is being -->
-<!-- included via the Require tag, in case you wish to keep the contents reusable -->
-<!-- In this example, we have a single, cross-platform home.js, which will take care of  -->
-<!-- feeding the sharedhome controller -->
+<!-- This is your iOS view.  Could contain any iOS-specific UI controls.  The content of the Window is being 	-->
+<!-- included via the Require tag, in case you wish to keep the contents reusable 								-->
+<!-- In this example, we have a single, cross-platform home.js, which will take care of  						-->
+<!-- feeding the sharedhome controller 																			-->
 <Alloy>
 	<NavigationWindow id="nav">
 		<Window id="win" class="container">
 			<Require src="sharedhome" id="sharedhome"/>
+
+			<!-- this implements the toolbar menu icons.  remove if not needed 																						-->
+			<!-- information on the possible native values for systemButton(icon): http://docs.appcelerator.com/titanium/3.0/#!/api/Titanium.UI.iPhone.SystemButton -->
+			<RightNavButtons>
+				<Button systemButton="Ti.UI.iPhone.SystemButton.ADD" onClick="doadd"/>
+			</RightNavButtons>
 		</Window>
 	</NavigationWindow>
 </Alloy>

@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="secondwin" class="container" onOpen="doopen">
+
+		<!-- this screen is cross-platform, so we need to add the platform selector to the ActionBar tag 	-->
+		<!-- thig tag will only be used when the app is compiled for Android 								-->
+		<ActionBar displayHomeAsUp="true" onHomeIconItemSelected="closewin" platform="android"/>
+
+
+	</Window>
+</Alloy>

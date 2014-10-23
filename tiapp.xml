@@ -38,6 +38,11 @@
 		</plist>
 	</ios>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
+		<manifest>
+	        <application android:theme="@style/Light"/>
+	        <!-- <application android:theme="@style/Dark"/> -->
+	        <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+	    </manifest>
 	</android>
 	<mobileweb>
 		<precache>

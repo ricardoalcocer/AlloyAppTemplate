@@ -1,0 +1,6 @@
+
+".container" : {
+ 	backgroundColor: "#fff",
+ 	title: "Second Window",
+ 	orientationModes: [Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.PORTRAIT,Ti.UI.UPSIDE_PORTRAIT]
+}

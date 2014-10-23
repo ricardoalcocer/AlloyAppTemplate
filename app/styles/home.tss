@@ -7,5 +7,6 @@
 }
 
 ".container":{
-	backgroundColor: "#fff"
+	backgroundColor: "#fff",
+ 	orientationModes: [Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.PORTRAIT,Ti.UI.UPSIDE_PORTRAIT]
 }
