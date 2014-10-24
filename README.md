@@ -12,6 +12,41 @@ The template provides the necessary scaffolding to implement platform-specific c
 * **Home.xml** "Requires" the "sharedhome" controller
 * **Home.js** is a single cross-platform controller used by either one of the home.xml files.  From here we can "talk" to the "sharedhome" files, effectively providing platform-specific containers with shared content
 
+## Important to keep in mind
+This template project is using platform-specific folders to organize your **main app containers** and keep them in separate places.  This practice is perfectly fine for the main container.  For all other windows I recommend you keep your code in a single View file and use the platform attribute, for example:
+
+```xml
+<Alloy>
+  <Window backgroundColor="#fff">
+
+    <!-- this tag is Android-only -->
+    <ActionBar platform="android" title="Window Title"/>
+
+    <!-- this tag is iOS-only -->
+    <Toolbar platform="ios" title="Window Title" top="20">
+      <Items>
+        <FlexSpace/>
+        <Label id="wintitle">Window Title</Label>
+        <FlexSpace/>
+      </Items>
+    </Toolbar>
+
+  </Window>
+</Alloy>
+```
+
+The same thing goes for your controllers, where you can use platform variables like:
+
+```javascript
+
+if (OS_IOS){
+  // do some iOS stuff
+}else if (OS_ANDROID){
+  // do some Android stuff
+}
+
+```
+
 
 > NOTE: **home.js** includes ActionBarExtras to help you easily customize the ActionBar without the need for custom ActionBar Styles
 
