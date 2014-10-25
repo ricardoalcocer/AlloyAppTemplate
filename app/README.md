@@ -47,6 +47,10 @@ if (OS_IOS){
 
 ```
 
+## Using Studio?
+
+My buddy [Andrew McElroy](http://twitter.com/sophrinix) of [CodexLabs](http://www.codexlabs.com/) turned this template into an [Aptana Ruble](https://github.com/CodexLabs/RicardoBootstrap.ruble) that can be integrated into Studio, allowing you to select the template at the time of project creation.
+
 
 > NOTE: **home.js** includes ActionBarExtras to help you easily customize the ActionBar without the need for custom ActionBar Styles
 
