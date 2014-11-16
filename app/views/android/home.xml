@@ -2,15 +2,30 @@
 <!-- included via the Require tag, in case you wish to keep the contents reusable -->
 
 <Alloy>
-	<Window id="win" class="container" onOpen="doopen">
+  <!-- Phone Window -->
+	<Window id="win" class="container" onOpen="doopen" formFactor="handheld">
 		<ActionBar/>
 
 		<!-- this implements the ActionBar menu icons.  remove if not needed -->
-		<!-- information on the possible native values for icon: http://androiddrawables.com/Menu.html --> 
+		<!-- information on the possible native values for icon: http://androiddrawables.com/Menu.html -->
 		<Menu id="menu" platform="android">
 		    <MenuItem id="closeitem" title="Add" icon="Ti.Android.R.drawable.ic_menu_add"  showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS"  onClick="doadd"/>
 		</Menu>
 
 		<Require src="sharedhome" id="sharedhome"/>
 	</Window>
+
+
+  <!-- Table Window -->
+  <Window id="win" class="container" onOpen="doopen" formFactor="tablet">
+    <ActionBar/>
+
+    <!-- this implements the ActionBar menu icons.  remove if not needed -->
+    <!-- information on the possible native values for icon: http://androiddrawables.com/Menu.html -->
+    <Menu id="menu" platform="android">
+        <MenuItem id="closeitem" title="Add" icon="Ti.Android.R.drawable.ic_menu_add"  showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS"  onClick="doadd"/>
+    </Menu>
+
+    <Require src="sharedhome" id="sharedhome"/>
+  </Window>
 </Alloy>

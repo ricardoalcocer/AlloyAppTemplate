@@ -47,6 +47,17 @@ if (OS_IOS){
 
 ```
 
+# Versions
+
+**1.1**
+
+* iPad and Android Tablet checks
+
+**1.0**
+
+* Initial release
+
+
 ## Using Studio?
 
 My buddy [Andrew McElroy](http://twitter.com/sophrinix) of [CodexLabs](http://www.codexlabs.com/) turned this template into an [Aptana Ruble](https://github.com/CodexLabs/RicardoBootstrap.ruble) that can be integrated into Studio, allowing you to select the template at the time of project creation.

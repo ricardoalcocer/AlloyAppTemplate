@@ -3,7 +3,9 @@
 <!-- In this example, we have a single, cross-platform home.js, which will take care of  						-->
 <!-- feeding the sharedhome controller 																			-->
 <Alloy>
-	<NavigationWindow id="nav">
+
+  <!-- iPhone/iPod Touch Window -->
+	<NavigationWindow id="nav" formFactor="handheld">
 		<Window id="win" class="container">
 			<Require src="sharedhome" id="sharedhome"/>
 
@@ -14,4 +16,18 @@
 			</RightNavButtons>
 		</Window>
 	</NavigationWindow>
+
+
+  <!-- iPad Window -->
+  <NavigationWindow id="nav" formFactor="tablet">
+    <Window id="win" class="container">
+      <Require src="sharedhome" id="sharedhome"/>
+
+      <!-- this implements the toolbar menu icons.  remove if not needed                                            -->
+      <!-- information on the possible native values for systemButton(icon): http://docs.appcelerator.com/titanium/3.0/#!/api/Titanium.UI.iPhone.SystemButton -->
+      <RightNavButtons>
+        <Button systemButton="Ti.UI.iPhone.SystemButton.ADD" onClick="doadd"/>
+      </RightNavButtons>
+    </Window>
+  </NavigationWindow>
 </Alloy>

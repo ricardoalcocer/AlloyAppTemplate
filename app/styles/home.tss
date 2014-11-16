@@ -1,10 +1,19 @@
-"#win[platform=ios]":{
+"#win[platform=ios formFactor=handheld]":{
 	title: "iOS Window"
 }
 
-"#win[platform=android]":{
+"#win[platform=android formFactor=handheld]":{
 	title: "Android Window"
 }
+
+"#win[platform=ios formFactor=tablet]":{
+  title: "iPad Window"
+}
+
+"#win[platform=android formFactor=tablet]":{
+  title: "Android Tablet Window"
+}
+
 
 ".container":{
 	backgroundColor: "#fff",

@@ -2,9 +2,7 @@
 
 I originally created this template for my [talk](https://speakerdeck.com/ricardoalcocer/advanced-cross-platform-development) at [ConnectJS 2014](http://www.connect-js.com/).
 
-The template provides the necessary scaffolding to implement platform-specific containers, with content reusability.  It also provides for better app debugging, as the entry point for each target platform is different:  if your iOS version is not working, you know where to start looking for your bug.  
-
-This is how it works:
+The template provides the necessary scaffolding to implement platform-specific containers, with content reusability.  This is how it works:
 
 ![](http://drops.ricardoalcocer.com/drops/readme_image-Nxc2gu6gH5.png)
 
@@ -48,6 +46,17 @@ if (OS_IOS){
 }
 
 ```
+
+# Versions
+
+**1.1**
+
+* iPad and Android Tablet checks
+
+**1.0**
+
+* Initial release
+
 
 ## Using Studio?
 
