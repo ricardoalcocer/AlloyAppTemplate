@@ -5,6 +5,7 @@ I originally created this template for my [talk](https://speakerdeck.com/ricardo
 The template provides the necessary scaffolding to implement platform-specific containers, with content reusability.  This is how it works:
 
 ![](http://drops.ricardoalcocer.com/drops/readme_image-Nxc2gu6gH5.png)
+![](http://sht.tl/VYhJar)
 
 * **Index.xml** is an empty view
 * **Index.js** picks up the request and loads the "home" controller
