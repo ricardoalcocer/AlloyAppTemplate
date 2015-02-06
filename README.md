@@ -59,7 +59,12 @@ if (OS_IOS){
 * Initial release
 
 
-## Using Studio?
+# Sigthings
+
+* [Aaron Saunders](https://github.com/aaronksaunders) is using this template for the app in [Chapter 3](https://github.com/aaronksaunders/AppC-Alloy-Book-Misc-Ch3) of his [Alloy book](https://github.com/aaronksaunders/AppC-Alloy-Book).
+
+
+# Using Studio?
 
 My buddy [Andrew McElroy](http://twitter.com/sophrinix) of [CodexLabs](http://www.codexlabs.com/) turned this template into an [Aptana Ruble](https://github.com/CodexLabs/RicardoBootstrap.ruble) that can be integrated into Studio, allowing you to select the template at the time of project creation.
 
