@@ -1,5 +1,7 @@
 # Cross-Platform Application Template
 
+### IMPORTANT NOTE:  I moved this template to [https://github.com/appcelerator-developer-relations/Template.Hierarchical-Navigation](https://github.com/appcelerator-developer-relations/Template.Hierarchical-Navigation), so make sure you check there for updates.  I won't be updating this one.
+
 I originally created this template for my [talk](https://speakerdeck.com/ricardoalcocer/advanced-cross-platform-development) at [ConnectJS 2014](http://www.connect-js.com/).
 
 The template provides the necessary scaffolding to implement platform-specific containers, with content reusability.  This is how it works:
